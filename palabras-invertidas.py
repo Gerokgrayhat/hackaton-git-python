@@ -1,7 +1,6 @@
 def es_palindromo(palabra):
-    # Normaliza la palabra: elimina espacios y convierte a minúsculas
+    
     palabra = palabra.replace(" ", "").lower()
-    # Compara la palabra con su reverso
     return palabra == palabra[::-1]
 
 def main():
